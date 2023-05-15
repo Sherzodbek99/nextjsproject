@@ -30,6 +30,7 @@ const createPrompt = async(e) => {
         }),
       })
 
+      console.log(session)
       if(response.ok){
         router.push('/')
       }
@@ -51,3 +52,5 @@ const createPrompt = async(e) => {
 }
 
 export default CreatePrompt
+
+
