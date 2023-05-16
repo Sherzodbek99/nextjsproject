@@ -7,11 +7,11 @@ const Home = () => {
             Discover & Share
             <br className="max-md:hidden" />
             <span className="orange_gradient text-center">
-                AI-Powered Prompts
+                Different Tech-ideas Globally 
             </span>
         </h1>
         <p className="desc text-center">
-            Promptopia is an open-source AI prompting tool for modern world to discover, create and share creative prompts
+            Tech-notes is a tool for modern world to discover, create and share creative technology related notes.
         </p>
 
         <Feed />

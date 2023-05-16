@@ -89,7 +89,7 @@ const Feed = () => {
           <Loading />
           ) : (
               <>
-                {/* All Prompts */}
+                {/* All Notes */}
                 {searchText ? (
                   <PromptCardList
                     data={searchedResults}

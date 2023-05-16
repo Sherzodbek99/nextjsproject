@@ -4,13 +4,17 @@ import { Nav } from '@components/Nav'
 import Provider from '@components/Provider'
 
 export const metadata = {
-    title: "Promtopia",
-    description: "Discover & Share AI prompts"
+    title: "Tech-Notes",
+    icon: '/assets/images/logo.svg',
+    description: "Discover & Share technological notes"
 }
 
 const RootLayout = ({children}) => {
   return (
     <html lang='en'>
+        <head>
+            <link rel="icon" type="image/svg+xml" href="/assets/images/logo.svg" />
+        </head>
         <body
             suppressHydrationWarning={true}
         >

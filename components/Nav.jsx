@@ -33,7 +33,7 @@ export const Nav = () => {
                 height={30}
                 className="object-contain"
             />
-            <p className="logo_text">Promptopia</p>
+            <p className="logo_text">Tech-Notes</p>
         </Link>
         {/* Desktop Navbar*/}
         <div className="sm:flex hidden">
@@ -90,7 +90,7 @@ export const Nav = () => {
                                 href="/create-prompt"
                                 className="dropdown_link"
                                 onClick={()=>setToggleDropDown(false)}
-                            >Create Prompt</Link>
+                            >Create Notes</Link>
                             <button
                                 type="button"
                                 onClick={()=>{
